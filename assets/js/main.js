@@ -74,7 +74,7 @@ function loadPokemonDetails(number) {
 
 function redirectToDetailsPage(number) {
     const url = `./details.html?number=${number}`;
-    window.open(url, '_blank');
+    window.location.href = url;
 }
 
 pokemonList.addEventListener('click', (event) => {
