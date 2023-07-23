@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+#pokemonDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.normal {
+  background-color: #a6a877;
+}
+
+.grass {
+  background-color: #77c850;
+}
+
+.fire {
+  background-color: #ee7f30;
+}
+
+.water {
+  background-color: #678fee;
+}
+
+.electric {
+  background-color: #f7cf2e;
+}
+
+.ice {
+  background-color: #98d5d7;
+}
+
+.ground {
+  background-color: #dfbf69;
+}
+
+.flying {
+  background-color: #a98ff0;
+}
+
+.poison {
+  background-color: #a040a0;
+}
+
+.fighting {
+  background-color: #bf3029;
+}
+
+.psychic {
+  background-color: #f65687;
+}
+
+.dark {
+  background-color: #725847;
+}
+
+.rock {
+  background-color: #b8a137;
+}
+
+.bug {
+  background-color: #a8b720;
+}
+
+.ghost {
+  background-color: #6e5896;
+}
+
+.steel {
+  background-color: #b9b7cf;
+}
+
+.dragon {
+  background-color: #6f38f6;
+}
+
+.fairy {
+  background-color: #f9aec7;
+}
+
+.conteiner_img {
+  border-radius: 30px 30px 30px 30px;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+}
+
+.conteiner_img_type img {
+  width: 15rem;
+}
+
+img:hover{
+  scale: 1.2;
+}
+
+
+.number {
+  display: block;
+  font-size: 1.4rem;
+  color: white;
+  margin-top: 20px;
+}
+
+.detail {
+  background: #ffffff;
+  border-radius: 0 0 10px 10px;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.types {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.type {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  list-style: none;
+  text-transform: capitalize;
+}
+
+.pokemon_status {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.conteiner {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.title{
+  font-size: 0.990rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.stat {
+  margin-bottom: 20px;
+}
+
+.stat_detail {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.950rem;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  padding: 2px;
+}
+
+.stat_detail span {
+  font-weight: 500;
+}
+
+.stat_bar {
+  margin-top: 5px;
+  border-radius: 20px;
+  height: 20px;
+}
+
+.stat_bar_hp {
+  border: 4px solid #1fb94d;
+  margin-top: 5px;
+}
+
+.stat_bar_attack {
+  border: 4px solid #528ECA;
+  margin-top: 5px;
+}
+
+.stat_bar_defense {
+  border: 4px solid #EFA923;
+  margin-top: 5px;
+}
+
+.stat_bar_special-attack {
+  border: 4px solid #C9549B;
+  margin-top: 5px;
+}
+
+.stat_bar_special-defense {
+  border: 4px solid #E54724;
+  margin-top: 5px;
+}
+
+.stat_bar_speed {
+  border: 4px solid #4951A2;
+  margin-top: 5px;
+}
+
+.navegation button {
+  background-color: #6c79db;
+  border: none;
+  border-radius: 1rem;
+  color: #fff;
+  font-size: .8rem;
+  padding: .625rem;
+  cursor: pointer;
+  margin: 0.4rem;
+  width: 5rem;
+}
+
+.navegation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+.navegation button:hover {
+  background-color: #d4cf72;
+  color: #000;
+}
+
+@media screen and (min-width: 280px) {
+  .conteiner_img img {
+    width: 12rem;
+  }
+
+}
+
+@media screen and (min-width: 600px) {
+  .conteiner_img img {
+    width: 8rem;
+  }
+
+}
+
+
+
+@media screen and (min-width: 992px) {
+  .stat_detail {
+    font-size: .900rem;
+    letter-spacing: 1px;
+    padding: 2px;
+  }
+
+  .conteiner_img img {
+    width: 8rem;
+  }
+
+  .name {
+    font-size: 2rem;
+  }
+
+  .types{
+    font-size: .690rem;
+  }
+
+}
